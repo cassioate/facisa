@@ -7,7 +7,13 @@ public class Carro {
 	int portas;
 	boolean vidroEletrico, arCondicionado, cambioAutomatico, direcaoEletrica;
 	double precoBase;
+
+//	Questão 1:
+//	static boolean promocao;
+//	Questão 2:
+	
 	boolean promocao;
+	
 	
 	public Carro(String nome, String marca, double precoBase) {
 		this.nome = nome;

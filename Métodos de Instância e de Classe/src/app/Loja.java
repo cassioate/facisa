@@ -5,6 +5,9 @@ public class Loja {
 
 	public static void main(String[] args) {
 		
+//		Questão 1:
+		
+//		Carro.promocao = false;
 		
 		Carro palio = new Carro("Palio", "Fiat", 35000);
 		Carro palioPrata = new Carro("Palio", "Fiat", "PRATA", 2, false, false, false, false, 35000);
@@ -20,13 +23,16 @@ public class Loja {
 		gol.cambioAutomatico = false;
 		gol.direcaoEletrica = false;
 		gol.precoBase = 55000;
+
+//		Questão 2:
 		
 		palio.promocao = true;
 		palioPrata.promocao = true;
 		civic.promocao = true;
 		corola.promocao = true;
 		gol.promocao = true;
-				
+		
+		
 		System.out.println(palio);
 		System.out.println(palioPrata);
 		System.out.println(civic);
