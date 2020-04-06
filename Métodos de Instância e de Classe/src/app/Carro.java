@@ -10,8 +10,8 @@ public class Carro {
 
 //	Questão 1:
 //	static boolean promocao;
-//	Questão 2:
 	
+//	Questão 2:
 	boolean promocao;
 	
 	
