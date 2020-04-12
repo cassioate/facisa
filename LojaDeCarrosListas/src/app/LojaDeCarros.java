@@ -11,11 +11,9 @@ public class LojaDeCarros {
 	public static void adicionarCarro(Carro carro) {
 		disponiveis.add(carro);
 	}
-	
 	public static void exibirCarrosDisponiveis() {
 		System.out.println("Carros disponiveis no momento: \n"+disponiveis);
 	}
-	
 	public static int venderCarro(int id) {
 		for(int i = 0; i < disponiveis.size(); i ++) {
 			if (disponiveis.get(i).id == id) {
@@ -25,7 +23,6 @@ public class LojaDeCarros {
 		}
 		return id;
 	}
-	
 	public static void adicionarPromocao(int id) {
 		for(int i = 0; i < disponiveis.size(); i ++) {
 			if (disponiveis.get(i).id == id) {
@@ -34,7 +31,6 @@ public class LojaDeCarros {
 			}
 		}
 	}
-	
 	public static int computaApuradoDasVendas() {
 		int output = 0;
 		for(int i = 0; i < vendidos.size(); i ++) {
@@ -42,9 +38,7 @@ public class LojaDeCarros {
 		}
 		return output;
 	}
-	
 	public static void limparVendidos() {
-		vendidos.clear();
-		
+		vendidos.clear();	
 	}
 }
