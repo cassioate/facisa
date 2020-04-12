@@ -15,7 +15,7 @@ public class Campeonato {
 		int quantidade = 0;
 		for (int i = 0; i < times.length; i ++) {
 			for (int j = i+1; j < times.length; j ++) {
-				partidas = times[i] + " x " + times[j] + "\n";
+				partidas = times[i] + " x " + times[j] + "|" + "\n";
 				tabela[quantidade] = partidas;
 				quantidade += 1;
 				}	
