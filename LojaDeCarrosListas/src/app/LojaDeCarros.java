@@ -26,8 +26,8 @@ public class LojaDeCarros {
 	public static void adicionarPromocao(int id) {
 		for(int i = 0; i < disponiveis.size(); i ++) {
 			if (disponiveis.get(i).id == id) {
-				double aux = disponiveis.get(i).precoBase;
-				disponiveis.get(i).precoBase = (aux) - (aux * 15 / 100);
+				double valor = disponiveis.get(i).precoBase;
+				disponiveis.get(i).precoBase = (valor) - (valor * 15 / 100);
 			}
 		}
 	}
