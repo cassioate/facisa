@@ -11,7 +11,7 @@ public class AvaliacaoApp {
 		
 		while(nota1 > 10.0 || nota1 < 0.0) {
 			try {
-				System.out.print("Digite nota do estágio 1: ");
+				System.out.print("Digite nota do estÃ¡gio 1: ");
 				nota1 = teclado.nextDouble();
 				avaliacao.setNota1(nota1);
 				} catch (NotaInvalidaException e) {
@@ -21,21 +21,14 @@ public class AvaliacaoApp {
 				
 			while(nota2 > 10.0 || nota2 < 0.0) {
 			try {
-				System.out.print("Digite nota do estágio 2: ");
+				System.out.print("Digite nota do estÃ¡gio 2: ");
 				nota2 = teclado.nextDouble();
 				avaliacao.setNota2(nota2);
 				} catch (NotaInvalidaException e) {
 					System.out.println(e.getMessage());
 				}
 			}
-		System.out.println("Média: " + avaliacao.getMedia());
+		System.out.println("MÃ©dia: " + avaliacao.getMedia());
 		teclado.close();
 	}
 }
-
-//while (!jogo.getAcabou()) {
-//	LerPalpite(jogo);
-////	} 
-//
-//catch (JogoEncerradoException e) {
-//	System.out.println(e.getMessage());
