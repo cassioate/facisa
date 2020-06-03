@@ -32,10 +32,3 @@ public class AvaliacaoApp {
 		teclado.close();
 	}
 }
-
-//while (!jogo.getAcabou()) {
-//	LerPalpite(jogo);
-////	} 
-//
-//catch (JogoEncerradoException e) {
-//	System.out.println(e.getMessage());
